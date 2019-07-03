@@ -6,3 +6,6 @@
 *.lock
 ./idea
 *iml
+*.exe
+*.pdb
+*.sublime-workspace
