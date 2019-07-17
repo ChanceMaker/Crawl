@@ -1,8 +1,9 @@
 /target
 **/*.rs.bk
-
+/debug
 *.xml
 *.toml
+*.d
 *.lock
 ./idea
 *iml
