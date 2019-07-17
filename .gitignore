@@ -10,3 +10,5 @@
 *.exe
 *.pdb
 *.sublime-workspace
+*.bin
+*.o
