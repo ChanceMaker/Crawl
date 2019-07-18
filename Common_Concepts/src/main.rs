@@ -40,6 +40,13 @@ fn shadowing(){
 }
 fn data_types(){
 	let guess: u32 = "42".parse().expect("Not a number!");	
+	let tup: (i32,f64,u8) = (500,6.4,1);
+
+	println!("GUESS {}", guess);
+	println!("Tuple :");
+	println!("{}", tup.0);
+	println!("{}", tup.1);
+	println!("{}", tup.2);
 }
 
 
